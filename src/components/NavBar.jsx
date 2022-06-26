@@ -32,7 +32,7 @@ const NavBar = () => {
   return (
     <div className="mylogo flex justify-between items-center w-full h-20 pt-8 pb-10 px-4 text-white bg-black fixed z-20">
       <div>
-      <h1 className="text-5xl flex font-signature ml-2 pt-2"><img className="md:flex h-16" src={profile} width="80px" /><span className="pt-4 pl-2 pb-2"> Sunny</span></h1>
+      <h1 className="text-5xl flex font-signature ml-2 pt-2"><img className="md:flex h-16" src={profile} width="80px" /><span className="pt-4 pl-2 pb-2">Sunny</span></h1>
       </div>
 
       <ul className="hidden md:flex">
