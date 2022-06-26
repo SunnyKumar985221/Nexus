@@ -12,7 +12,7 @@ const Home = () => {
           <div className="col-md-6 d-flex justify-content-center">
             <span className="about2">
               Hi ! <br/> My Name is Sunny Kumar<br/><span className="about6">I'M a Web Developer</span>
-              <FcReddit style={iconStyles} />
+              
             </span>
             
           </div>

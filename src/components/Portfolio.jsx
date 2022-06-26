@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-scroll"
 import sunny from '../images/sunny.jpg'
+import './about.css';
 
 const Portfolio = () => {
 
   return (
     <div
-      name="project">
+      name="project" className="h-max">
       <h1 className="port2" style={{ fontSize: "40px", backgroundColor: "#1a1d1a", color: "white" }}>Have a look on my Projects</h1>
       <div className="row port1" style={{ backgroundColor: "#1a1d1a" }}>
 

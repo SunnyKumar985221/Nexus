@@ -46,3 +46,29 @@
 .sticky{
     z-index:12;
 }
+@media screen and (min-device-width: 4px) and (max-device-width: 500px) { 
+    .about2{
+        color:white;
+        font-size: 26px;
+        padding:35px;
+        
+    }
+    .about2 .about5{
+        display: none;
+    }
+    .about3 {
+        width: 140px !important;
+        border-radius: 500px;
+        position: absolute;
+        /* top: 168px; */
+        top: -15px;
+       left: 60%;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    .mylogo{
+        padding-top:15px;
+    }
+
+}
