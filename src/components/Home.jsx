@@ -6,7 +6,7 @@ const Home = () => {
   let iconStyles = { color: "green", fontSize: "150px" };
   return (
     <div name="home">
-      <div className="about1">
+      <div className="about1 home_bg">
       
         <div className="row">
           <div className="col-md-6 d-flex justify-content-center">

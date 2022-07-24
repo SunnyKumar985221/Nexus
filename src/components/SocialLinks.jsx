@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaSkype ,FaInstagram} from "react-icons/fa";
+import { FaLinkedin, FaPhone ,FaInstagram} from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -12,17 +12,17 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/sunny-kumar-11a14a18a/",
       style: "rounded-tr-md",
     },
     {
       id: 2,
       child: (
         <>
-          Skype <FaSkype size={30} />
+          Call Now <FaPhone size={30} />
         </>
       ),
-      href: "https://github.com/theyashpatel",
+      href: "tel:9852211257",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:foo@gmail.com",
+      href: "mailto:sunnyrajpcs84@gmail.com",
     },
     {
       id: 4,
@@ -40,9 +40,9 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/resume.pdf",
+      href: "#",
       style: "rounded-br-md",
-      download: true,
+      download: false,
     },
   ];
 
