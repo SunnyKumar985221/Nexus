@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Lora:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
+
 .about1{
     width:100%;
     height:400px;
@@ -121,6 +122,7 @@
 .mylogo{
     background: rgb(12,17,24);
     background: linear-gradient(0deg, rgba(12,17,24,1) 0%, rgba(35,47,65,1) 40%, rgba(39,52,71,1) 60%, rgba(57,76,105,1) 79%);
+
 }
 .about_bg{
     background: rgb(26,29,26);
@@ -135,8 +137,10 @@ background: linear-gradient(0deg, rgba(26,29,26,1) 14%, rgba(35,47,65,1) 35%, rg
     background: linear-gradient(0deg, rgba(60,37,88,1) 0%, rgba(57,76,105,1) 83%);
 }
 .home_bg{
-    background: rgb(57,76,105);
-background: linear-gradient(0deg, rgba(57,76,105,1) 2%, rgba(0,0,0,1) 97%);
+    background: linear-gradient(0deg,#394c69 2%,#000 97%);
+}
+.hidescroll{
+    overflow-x: hidden;
 }
 @media screen and (min-device-width: 4px) and (max-device-width: 500px) { 
     .about2{

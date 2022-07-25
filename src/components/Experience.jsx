@@ -85,6 +85,7 @@ const Experience = () => {
   ];
 
   return (
+    
     <div
       name="experience"
       className="exp_bg bg-gradient-to-b from-gray-800 to-black w-full"
@@ -110,6 +111,7 @@ const Experience = () => {
         </div>
       </div>
     </div>
+  
   );
 };
 

@@ -2,6 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
+
     <div
       name="about"
       className="about_bg w-full h-auto pb-16 pt-8 bg-gradient-to-b from-gray-800 to-black text-white"
@@ -21,6 +22,7 @@ const About = () => {
 
       </div>
     </div>
+   
   );
 };
 

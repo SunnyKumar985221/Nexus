@@ -30,6 +30,7 @@ const Contact = () => {
 
   }
   return (
+ 
     <div 
       name="contact"
       className="contact_bg w-full h-auto bg-gradient-to-b from-black to-gray-800 p-4 text-white"
@@ -77,6 +78,7 @@ const Contact = () => {
         {/* <p className="message2"></p> */}
       </div>
     </div>
+   
   );
 };
 
